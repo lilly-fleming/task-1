@@ -1,0 +1,135 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #000000;
+}
+
+/* Header Styles */
+header {
+    background-color: #073253;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo-header img {
+    width: 120px; /* Adjust logo size */
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+header h1 {
+    display: inline;
+    font-size: 2rem;
+    margin: 0;
+   
+
+}
+
+/* Navigation Bar Styles */
+nav {
+    background-color: #b3eeff;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+
+/* Section Header Styles */
+h2, h3 {
+    display: inline-flex;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: #333;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #2a2a2a;
+}
+
+/* Image Styles next to headings */
+.section-icon {
+    width: 30px; /* Adjust size of the image */
+    height: auto;
+    margin-right: 10px; /* Add space between the image and heading */
+    vertical-align: middle; /* Vertically align the image with the heading */
+}
+
+/* List Styles */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    font-size: 1.1rem;
+    margin: 5px 0;
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 40px;
+}
+
+/* Section Specific Styles (Optional) */
+#saddle-prices {
+    background-color: #d4edff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#bridle-prices {
+    background-color: #fbebdf;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#boots {
+    background-color: #d9fdd9;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+Section id='About Us' {
+    backround-color: #f3fab7;
+}
+
+/* Footer Styles (Optional) */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
